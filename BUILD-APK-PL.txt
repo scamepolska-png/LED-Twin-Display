@@ -1,0 +1,12 @@
+LED TWIN DISPLAY — JAK ZBUDOWAĆ APK
+
+1. Rozpakuj archiwum na komputerze.
+2. Utwórz repozytorium na GitHub i wgraj do niego całą zawartość folderu LEDTwinDisplay.
+3. Wejdź w zakładkę Actions.
+4. Wybierz „Build Android APK” i kliknij „Run workflow”.
+5. Po zakończeniu pobierz artefakt „LED-Twin-debug-APK”.
+6. Rozpakuj go i skopiuj app-debug.apk na telefon.
+7. Otwórz APK i zezwól Androidowi na instalację z tego źródła.
+
+UWAGA: To prototyp. Nie został jeszcze przetestowany na dwóch fizycznych panelach ACT1033.
+W tej wersji jest test połączenia i wysyłanie statycznej klatki; import GIF i dopracowanie synchronizacji są kolejnym etapem.
